@@ -1531,20 +1531,20 @@
   resolved "https://registry.npmmirror.com/@vue/web-component-wrapper/-/web-component-wrapper-1.3.0.tgz#b6b40a7625429d2bd7c2281ddba601ed05dc7f1a"
   integrity sha512-Iu8Tbg3f+emIIMmI2ycSI8QcEuAUgPTgHwesDU1eKMLE4YC/c/sFbGc70QgMq31ijRftV0R7vCm9co6rldCeOA==
 
-"@vueuse/core@4.9.0":
-  version "4.9.0"
-  resolved "https://registry.npmmirror.com/@vueuse/core/-/core-4.9.0.tgz#a0d048654bdf26b9838d5a6b9b33c5182130902d"
-  integrity sha512-vkGB6T9IgsdvbEyEVLaNu+JlMXonqx/mUX5El1u252ZTOa9khsVIAWWEMfxFyXz245V2hJi+O+TZv6rwyHbOLg==
+"@vueuse/core@^7.6.0":
+  version "7.6.0"
+  resolved "https://registry.npmmirror.com/@vueuse/core/-/core-7.6.0.tgz#821dfbe137a00a4a25da5848c7e6ab1e04953198"
+  integrity sha512-gTkTYbOO19AnhmbH39mMlfoOOcxSSOtXeI69Ixm7gE/C0eT8Vnpb7VE9KGrobCr4sUqE5fmwAdPIYkdB/NJIzQ==
   dependencies:
-    "@vueuse/shared" "4.9.0"
-    vue-demi latest
+    "@vueuse/shared" "7.6.0"
+    vue-demi "*"
 
-"@vueuse/shared@4.9.0":
-  version "4.9.0"
-  resolved "https://registry.npmmirror.com/@vueuse/shared/-/shared-4.9.0.tgz#efc36ed36a6148b794538675309038bdf3df9701"
-  integrity sha512-u5bSe39llw2DjGerZjFK/jv04sF3G1BX5t4aRat1s+9hzm8mEB55uorqA3VxCgTFMNyc0sactZhj6YIzYdG0dg==
+"@vueuse/shared@7.6.0":
+  version "7.6.0"
+  resolved "https://registry.npmmirror.com/@vueuse/shared/-/shared-7.6.0.tgz#37da9008f2263a0478743d05f485a00a6d2b9024"
+  integrity sha512-+Q0XVQHX/Low2dQMZfrkZcOOY6oB5+JNOEsM2HJFCjAvhotujpGnQiwyfGKb35wxynlmR97oCCZmGuVMgv/9dg==
   dependencies:
-    vue-demi latest
+    vue-demi "*"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -8698,7 +8698,7 @@ vue-cli-plugin-style-resources-loader@~0.1.5:
   resolved "https://registry.npmmirror.com/vue-cli-plugin-style-resources-loader/-/vue-cli-plugin-style-resources-loader-0.1.5.tgz#3e95f4df41f5408e1255664690698c0533648109"
   integrity sha512-LluhjWTZmpGl3tiXg51EciF+T70IN/9t6UvfmgluJBqxbrb6OV9i7L5lTd+OKtcTeghDkhcBmYhtTxxU4w/8sQ==
 
-vue-demi@latest:
+vue-demi@*:
   version "0.12.1"
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
   integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==

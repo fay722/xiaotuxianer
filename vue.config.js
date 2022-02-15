@@ -8,5 +8,12 @@ module.exports = {
         path.join(__dirname, './src/assets/styles/mixins.less')
       ]
     }
+  },
+  chainWebpack: config => {
+    config.module
+      .rule('images')
+      .use('url-loader')
+      .loader('url-loader')
+      .tap(options => Object.assign(options, { limit: 10000 }))
   }
 }
