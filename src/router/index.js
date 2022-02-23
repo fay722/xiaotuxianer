@@ -14,6 +14,10 @@ const routes = [
       { path: '/category/sub/:id', component: SubCategory },
       { path: '/product/:id', component: Goods }
     ]
+  },
+  {
+    path: '/login',
+    component: () => import('@/views/login')
   }
 ]
 
